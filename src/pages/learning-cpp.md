@@ -1,9 +1,6 @@
 ---
-title: Choosing a Second Language
+title: Learning Modern C++
 date: "2018-05-18"
 ---
 
-After two years of web development with JavaScript it was time to learn a second language. With the myriad of modern languages to choose from I set to the internet to inform my decision.
-
-### The Big Deal
-I see people on social media flash a list of 7 programming languages they're fluent in (and most job listings prefer you to know at least three), so maybe learning a "second" language is about as monumental as graduating the fourth grade. At the time for me it was a little bigger than that though. 
+This post will cover the resources I used in my first year of learning C++ along with the bumps and bruises along the way.
