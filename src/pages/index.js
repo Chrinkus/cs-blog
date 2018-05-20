@@ -1,13 +1,14 @@
 import React from 'react'
 import Link from 'gatsby-link'
 
-const IndexPage = () => (
+export default () => (
   <div>
-    <h1>Hi people</h1>
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
-    <Link to="/page-2/">Go to page 2</Link>
+    <h1>Strange and Wonderful Things</h1>
+    <div>
+      <img
+        src="https://source.unsplash.com/random/800x400"
+        alt="random picture"
+      />
+    </div>
   </div>
-)
-
-export default IndexPage
+);
