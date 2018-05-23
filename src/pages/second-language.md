@@ -1,6 +1,6 @@
 ---
 title: Choosing My Second Language
-date: "2018-05-05"
+date: "2018-05-23"
 ---
 
 I began my quest to learn to code in February of 2015 by creating an account on [Codecademy](https://www.codecademy.com/learn). Two years later I had developed a strong handle on JavaScript, having used it to create two small games and experiment with some light web design. I started to consider what it would take to actually pursue a career as a programmer.
@@ -14,7 +14,7 @@ At the beginning of my third year programming, I believed my grasp of JavaScript
 
 I didn't know what I didn't know, and I was not sure how much of what I knew was wrong. For these reasons I decided that I would study one of the more "serious" languages hoping that whatever resources I would use would also fill in some of my learning gaps.
 
-Also, I had read about [WebAssembly](https://developer.mozilla.org/en-US/docs/WebAssembly) and its ability to inject high performance code into web sites to allow applications to run that would not have been able to before. The inference was that JavaScript alone is not enough and I would be well served to learn one of these "higher performance" languages.
+Also, I had read about [WebAssembly](https://developer.mozilla.org/en-US/docs/WebAssembly) and its ability to inject high performance code into web sites to allow applications to run in the browser that would not have been able to before. The inference was that JavaScript alone is not enough and I would be well served to learn one of these "higher performance" languages.
 
 The question became which language would I pursue?
 
@@ -40,9 +40,9 @@ Java and C# represented very well in all of my research and were locks for the f
 
 ## Rope-a-Dope
 
-_I realize now that my thought process in making my final selection was flawed. I made some assumptions that turned out to not be true, specifically in regards to C#. Oh well._
+_I realize now that my thought process in making my final selection was flawed. I made some assumptions that turned out to not be true, [specifically in regards to C#](https://www.xamarin.com). Oh well._
 
-After narrowing my field down to four languages I immediately cut two, C# and Swift, for being proprietary. I didn't know about compile targets at the time so I assumed that learning Swift would railroad me into iOS development and C# would shackle me to Microsoft. This seemed to be a limiting factor and I decided to look more closely at the general options.
+After narrowing my field down to four languages I immediately cut two, C# and Swift, for being proprietary. I assumed that learning Swift would railroad me into iOS development and C# would shackle me to Microsoft. This seemed to be a limiting factor and I decided to look more closely at the general options.
 
 The choice was between Java and C++. The merits of each are [extensively](https://en.wikipedia.org/wiki/Comparison_of_Java_and_C%2B%2B) [documented](https://www.quora.com/What-are-major-differences-between-C++-and-Java). Rather than bore the reader with a flawed pros and cons list I'll just say that I chose C++ and offer a few reasons why:
 - C++ has lower level facilities and is tougher to learn but makes learning any other languages easier (including Java)
