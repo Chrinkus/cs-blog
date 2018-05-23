@@ -12,12 +12,14 @@ At the beginning of my third year programming, I believed my grasp of JavaScript
 - JavaScript was apparently single-threaded and that was somehow limiting..?
 - Everytime I need to do something there always seemed to be an abstraction layer API "protecting" me from the hardware. Why is this?
 
-I also figured there were a few things I knew that were wrong and, more significantly, there was a great deal that I didn't even know I didn't know. For these reasons I decided that I would study one of the more "serious" languages hoping that whatever resources I would use would also fill in some of my learning gaps.
+I didn't know what I didn't know, and I was not sure how much of what I knew was wrong. For these reasons I decided that I would study one of the more "serious" languages hoping that whatever resources I would use would also fill in some of my learning gaps.
+
+Also, I had read about [WebAssembly](https://developer.mozilla.org/en-US/docs/WebAssembly) and its ability to inject high performance code into web sites to allow applications to run that would not have been able to before. The inference was that JavaScript alone is not enough and I would be well served to learn one of these "higher performance" languages.
 
 The question became which language would I pursue?
 
 ## A Choice of Suitors
-Armed with my list of needs I canvassed the internet for a solution to my problem. I approached the problem from three angles:
+Armed with a vague notion of needs (a serious, high performance language) I canvassed the internet for a solution to my problem. I approached the problem from three angles:
 1. Most popular languages
 2. Most locally employable languages
 3. Availability and reliability of resources
@@ -34,7 +36,7 @@ Using these criteria I was able to narrow my choices down to four familiar faces
 - C++
 - ~~Objective-C~~ Swift
 
-Java and C# represented very well in all of my research and were locks for the final four. C++ was advanced through the screening based on its ubiquitous nature and that many other languages are designed using it. Lastly Swift was a late substitution for Objective-C despite its "newer" status. I considered Swift because it had excellent resources (free and extensive official docs from Apple) and although Objective-C was absent from much of my research, iOS development was largely represented.
+Java and C# represented very well in all of my research and were locks for the final four. C++ was advanced through the screening based on its ubiquitous nature and that many other languages are designed using it. Lastly Swift was a late substitution for Objective-C despite its "newer" status. I considered Swift because it had excellent resources (free and extensive official docs from Apple) and although Objective-C was absent from much of my research, iOS development was significantly represented.
 
 ## Rope-a-Dope
 
@@ -45,12 +47,8 @@ After narrowing my field down to four languages I immediately cut two, C# and Sw
 The choice was between Java and C++. The merits of each are [extensively](https://en.wikipedia.org/wiki/Comparison_of_Java_and_C%2B%2B) [documented](https://www.quora.com/What-are-major-differences-between-C++-and-Java). Rather than bore the reader with a flawed pros and cons list I'll just say that I chose C++ and offer a few reasons why:
 - C++ has lower level facilities and is tougher to learn but makes learning any other languages easier (including Java)
 - C++ is governed by the [ISO](https://www.iso.org/home.html), not a product of a  multinational corporation
-- C++ is the preferred language for game development jobs though Java and C# proficiencies were also sought after
+- C++ is an early participant in the Web Assembly ecosystem, which would pair well with my JavaScript experience
 - C++11 seemed to have been a game-changer similar to the ISO's improvement of JavaScript with ES2015
 
 ## Epilogue
-Its been a year since I made my decision and having worked through a [comprehensive text](http://a.co/cEZuc3x) I can comfortably place many of my original questions in the answered column:
-- code is parsed by a compiler and conditionally optimized before translating it into machine code
-- memory is aligned into addressable words of bytes. At compile time it is divided into static, stack, and heap storage to be used by the program.
-- parallel programming is a vast subject that I've only scratched the surface of but I understand its purpose in driving performance
-- all of my JavaScript code floated along the surface of the browser. I was never anywhere near the hardware before
+Its been a year since I made my decision. Having worked through a [comprehensive text](http://a.co/cEZuc3x) I can comfortably place many of my original questions in the answered column along with many other supporting concepts that I wouldn't have otherwise encountered in a strictly web development learning path.
